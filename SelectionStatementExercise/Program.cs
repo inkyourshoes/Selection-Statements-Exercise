@@ -13,8 +13,8 @@
             while (response != favNumber)
             {
 
-                Console.WriteLine("Give me a number between 1 and 100:");
-                response = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Give me a number between 1 and 100:");
+                    response = int.Parse(Console.ReadLine());
 
                 if (response < favNumber)
                 {
